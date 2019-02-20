@@ -122,7 +122,6 @@ body{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-attachment: fixed;
 	background-size: cover;
 	background-position: center center;
 	background-image:  url("../imgs/westbg_m.jpg");
@@ -290,10 +289,12 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 	.home-inner{
 		background-image: url(../imgs/landingbg.jpg);
+		background-attachment: fixed;
 	}
 
 	.fixed{
 		background-image: url("../imgs/westbg.jpg");
+		background-attachment: fixed;
 	}
 
 	.pb{
