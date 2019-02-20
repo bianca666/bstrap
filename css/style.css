@@ -293,6 +293,13 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 	.fixed{
 		background-image: url("../imgs/westbg.jpg");
+		background-attachment: inherit;
+		position: fixed;
+	}
+
+	.home-inner{
+		background-attachment: inherit;
+		position: fixed;
 	}
 
 	.pb{
