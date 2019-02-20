@@ -108,6 +108,7 @@ body{
 }
 
 .fixed-wrap{
+	transform: translate(0, 0);
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -117,15 +118,16 @@ body{
 }
 
 .fixed{
-	position: absolute;
+	display: block;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	background-size: cover;
-	background-position: center center;
-	background-image: url("../imgs/westbg_m.jpg");
-	background-attachment: fixed;
+	/* background-position: center center; */
+	background: url("../imgs/westbg_m.jpg") no-repeat center;
+	
 }
 
 .row{
