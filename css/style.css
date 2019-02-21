@@ -225,7 +225,7 @@ body{
 }
 
 .modPadding{
-	padding: 2rem 2rem 1rem;
+	padding: 2rem 1rem 1rem;
 }
 
 .heading-line{
@@ -307,10 +307,14 @@ footer{
 		padding-bottom: 8rem;
 }
 
-.w60{
-	width: 100%;
-	margin: 0 auto;
+.md-space{
+	padding-bottom: 0rem;
 }
+
+.pb-md{
+	padding-bottom: 0rem;
+}
+
 
 /*============ BOOTSTRAP BREAK POINTS:
 
@@ -330,7 +334,8 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
-@media screen and (min-width: 415px) {
+
+@media screen and (min-width: 768px) {
 
 	.home-inner{
 		background-image: url(../imgs/landing_md.jpg);
@@ -340,36 +345,12 @@ Extra (xl) large devices (large desktops, 1200px and up)
 		background-image: url("../imgs/westbg_md.jpg");
 	}
 
-	.w60{
-		width: 60%;
-	}
-
-}
-
-@media screen and (min-width: 769px) {
-
-	.home-inner{
-		background-image: url(../imgs/landingbg.jpg);
-		background-attachment: fixed;
-	}
-
-	.fixed{
-		background-image: url("../imgs/westbg.jpg");
-		background-attachment: fixed;
-	}
-
 	.pb{
 		padding-bottom: 0;
 	}
 
 	cite.kongzi{
-		right: 8%;
 		top: 9rem;
-	}
-
-	.w60{
-		width: 100%;
-		margin: 0 auto;
 	}
 
 	.icon-cookie, .icon-cake{
@@ -395,4 +376,37 @@ Extra (xl) large devices (large desktops, 1200px and up)
 	  	margin-top: 0;
 	}
 
+	.md-space{
+		padding-bottom: 6rem;
+	}
+
+	.pb-md{
+		padding-bottom: 8rem;
+	}
+
+	
+
+}
+
+@media screen and (min-width: 992px) {
+	
+	.home-inner{
+		background-image: url(../imgs/landingbg.jpg);
+		background-attachment: fixed;
+	}
+
+	.fixed{
+		background-image: url("../imgs/westbg.jpg");
+		background-attachment: fixed;
+	}
+
+	cite.kongzi{
+		right: 8%;
+	}
+
+	.md-space{
+		padding-bottom: 0rem;
+	}
+
+	
 }
