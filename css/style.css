@@ -403,12 +403,10 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 	.home-inner{
 		background-image: url(../imgs/landingbg.jpg);
-		background-attachment: fixed;
 	}
 
 	.fixed{
 		background-image: url("../imgs/westbg.jpg");
-		background-attachment: fixed;
 	}
 
 	cite.kongzi{
@@ -419,10 +417,5 @@ Extra (xl) large devices (large desktops, 1200px and up)
 		padding-bottom: 0rem;
 	}
 
-	
-}
-
-@media screen and (min-width: 993px) and (max-width: 1024px) {
-	
 	
 }
