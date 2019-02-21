@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../font/icomoon.eot?9q9h7k');
-  src:  url('../font/icomoon.eot?9q9h7k#iefix') format('embedded-opentype'),
-    url('../font/icomoon.ttf?9q9h7k') format('truetype'),
-    url('../font/icomoon.woff?9q9h7k') format('woff'),
-    url('../font/icomoon.svg?9q9h7k#icomoon') format('svg');
+  src:  url('../font/icomoon.eot?jg0au8');
+  src:  url('../font/icomoon.eot?jg0au8#iefix') format('embedded-opentype'),
+    url('../font/icomoon.ttf?jg0au8') format('truetype'),
+    url('../font/icomoon.woff?jg0au8') format('woff'),
+    url('../font/icomoon.svg?jg0au8#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-pastry:before {
+  content: "\e90a";
+}
 .icon-bun:before {
   content: "\e905";
 }
@@ -38,9 +41,6 @@
 }
 .icon-double-quotation:before {
   content: "\e909";
-}
-.icon-pastry:before {
-  content: "\e90a";
 }
 .icon-popcorn:before {
   content: "\e90b";
