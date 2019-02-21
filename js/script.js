@@ -26,7 +26,7 @@
 
 		}
 		
-		if(!window.orientation){
+		if(!'ontouchstart' in document){
 			var fixed = document.getElementsByClassName('fixed')[0];
 			var homeInner = document.getElementsByClassName('home-inner')[0];
 			homeInner.style.backgroundAttachment = 'fixed';
