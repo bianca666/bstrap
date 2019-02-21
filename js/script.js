@@ -21,24 +21,18 @@
 			if(width == 768 && ori == 2){
 				homeInner.style.background = 'url(https://github.com/bianca666/bstrap/blob/master/imgs/landing_md.jpg)';
 			}
-
-		console.log(orientation, ori, width, homeInner.style.background);
-
 		}
 		
-		if(!'ontouchstart' in document){
-			var fixed = document.getElementsByClassName('fixed')[0];
-			var homeInner = document.getElementsByClassName('home-inner')[0];
+		if(!('ontouchstart' in document)){
+			var fixed = $('.fixed')[0];
+			var homeInner = $('.home-inner')[0];
+			
 			homeInner.style.backgroundAttachment = 'fixed';
 			fixed.style.backgroundAttachment = 'fixed';
 		}
-
-		//updateOrientation();
-		/*../imgs/landing_md.jpg*/
-		//window.addEventListener('orientationchange', updateOrientation, false);
 	}
 
-	 window.addEventListener("DOMContentLoaded",init,false);  
+	 $(document).ready(init);  
 	
 })();
 
