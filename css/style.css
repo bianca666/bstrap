@@ -342,6 +342,10 @@ Extra (xl) large devices (large desktops, 1200px and up)
 	.fixed{
 		background-image: url("../imgs/westbg_md.jpg");
 	}
+
+	.btn-lg{
+		top: 65%;
+	}
 }
 
 
@@ -349,6 +353,10 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media screen and (min-width: 768px) {
 	.pb{
 		padding-bottom: 0;
+	}
+
+	.btn-lg{
+		top: 53%;
 	}
 
 	cite.kongzi{
