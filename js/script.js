@@ -16,10 +16,13 @@
 			var homeInner = document.getElementsByClassName('home-inner')[0];
 			var width = document.body.clientWidth;
 			if(width == 1024 && ori == 1){
-				homeInner.style.background = 'url(imgs/landingbg.jpg)';
+				homeInner.style.background = 'url(https://github.com/bianca666/bstrap/blob/master/imgs/landingbg.jpg)';
+			}
+			if(width == 768 && ori == 2){
+				homeInner.style.background = 'url(https://github.com/bianca666/bstrap/blob/master/imgs/landing_md.jpg)';
 			}
 
-		console.log(orientation, ori, homeInner.style.background);
+		console.log(orientation, ori, width, homeInner.style.background);
 
 		}
 		
