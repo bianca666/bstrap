@@ -334,9 +334,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
-
-@media screen and (min-width: 768px) {
-
+@media screen and (min-width: 576px) {
 	.home-inner{
 		background-image: url(../imgs/landing_md.jpg);
 	}
@@ -344,7 +342,11 @@ Extra (xl) large devices (large desktops, 1200px and up)
 	.fixed{
 		background-image: url("../imgs/westbg_md.jpg");
 	}
+}
 
+
+
+@media screen and (min-width: 768px) {
 	.pb{
 		padding-bottom: 0;
 	}
@@ -382,6 +384,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 	.pb-md{
 		padding-bottom: 8rem;
+		padding-left: 2rem;
 	}
 
 	
@@ -389,7 +392,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 }
 
 @media screen and (min-width: 992px) {
-	
+
 	.home-inner{
 		background-image: url(../imgs/landingbg.jpg);
 		background-attachment: fixed;
@@ -408,5 +411,10 @@ Extra (xl) large devices (large desktops, 1200px and up)
 		padding-bottom: 0rem;
 	}
 
+	
+}
+
+@media screen and (min-width: 993px) and (max-width: 1024px) {
+	
 	
 }
