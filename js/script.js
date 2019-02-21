@@ -13,15 +13,17 @@
 					break;
 			}
 
-		}
-		
-		var homeInner = document.getElementsByClassName('home-inner')[0];
-		var width = document.body.clientWidth;
-		if(width == 1024 && ori == 1){
-			homeInner.style.background = 'url(../imgs/landingbg.jpg)';
-		}
+			var homeInner = document.getElementsByClassName('home-inner')[0];
+			var width = document.body.clientWidth;
+			if(width == 1024 && ori == 1){
+				homeInner.style.background = 'url(../imgs/landingbg.jpg)';
+			}
 
 		console.log(orientation, ori, homeInner.style.background);
+
+		}
+		
+		updateOrientation();
 		/*../imgs/landing_md.jpg*/
 		window.addEventListener('orientationchange', updateOrientation, false);
 	}
