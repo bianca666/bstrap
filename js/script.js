@@ -26,9 +26,16 @@
 
 		}
 		
-		updateOrientation();
+		if(!window.orientation){
+			var fixed = document.getElementsByClassName('fixed')[0];
+			var homeInner = document.getElementsByClassName('home-inner')[0];
+			homeInner.style.backgroundAttachment = 'fixed';
+			fixed.style.backgroundAttachment = 'fixed';
+		}
+
+		//updateOrientation();
 		/*../imgs/landing_md.jpg*/
-		window.addEventListener('orientationchange', updateOrientation, false);
+		//window.addEventListener('orientationchange', updateOrientation, false);
 	}
 
 	 window.addEventListener("DOMContentLoaded",init,false);  
