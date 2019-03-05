@@ -96,5 +96,9 @@ dd{
 		width: 30%;
 		display: inline-block;
 	}
+	
+	#popcorn p{
+		width: 70%;
+	}
 
 }
